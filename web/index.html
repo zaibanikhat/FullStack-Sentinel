@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sentinel Support</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Dark Theme (Default) */
+      .theme-dark {
+        --color-brand-primary: #0D1117;
+        --color-brand-secondary: #161B22;
+        --color-brand-accent: #58A6FF;
+        --color-brand-text: #C9D1D9;
+        --color-brand-text-secondary: #8B949E;
+        --color-brand-border: #30363D;
+        --color-brand-success: #238636;
+        --color-brand-danger: #DA3633;
+        --color-brand-warning: #DBAB0A;
+      }
+      /* Light Theme */
+      .theme-light {
+        --color-brand-primary: #F1F5F9; /* slate-100 */
+        --color-brand-secondary: #FFFFFF; /* white */
+        --color-brand-accent: #4F46E5; /* indigo-600 */
+        --color-brand-text: #0F172A; /* slate-900 */
+        --color-brand-text-secondary: #64748B; /* slate-500 */
+        --color-brand-border: #E2E8F0; /* slate-200 */
+        --color-brand-success: #16A34A; /* green-600 */
+        --color-brand-danger: #DC2626; /* red-600 */
+        --color-brand-warning: #D97706; /* amber-600 */
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in-out',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+            },
+            colors: {
+              'brand-primary': 'var(--color-brand-primary)',
+              'brand-secondary': 'var(--color-brand-secondary)',
+              'brand-accent': 'var(--color-brand-accent)',
+              'brand-text': 'var(--color-brand-text)',
+              'brand-text-secondary': 'var(--color-brand-text-secondary)',
+              'brand-border': 'var(--color-brand-border)',
+              'brand-success': 'var(--color-brand-success)',
+              'brand-danger': 'var(--color-brand-danger)',
+              'brand-warning': 'var(--color-brand-warning)',
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^6.23.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.548.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-primary text-brand-text transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>

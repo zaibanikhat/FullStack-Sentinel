@@ -1,0 +1,15 @@
+{
+  "name": "sentinel-test-data",
+  "version": "1.0.0",
+  "description": "Test data generator for Sentinel Support System",
+  "main": "generate-test-data.js",
+  "scripts": {
+    "generate": "node generate-test-data.js",
+    "generate:large": "node generate-test-data.js --transactions 1000000"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "pg": "^8.11.0",
+    "uuid": "^9.0.1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "eval-case-001",
+  "name": "High Value Transaction",
+  "description": "Transaction with amount > $10,000",
+  "input": {
+    "transaction": {
+      "amount": 15000,
+      "currency": "USD",
+      "customerId": "cust_high_value",
+      "merchant": "Luxury Store",
+      "category": "jewelry",
+      "timestamp": "2025-10-30T10:00:00Z"
+    },
+    "customer": {
+      "id": "cust_high_value",
+      "averageTransaction": 250,
+      "status": "active"
+    }
+  },
+  "expected": {
+    "alert": true,
+    "riskScore": {
+      "$gt": 0.8
+    },
+    "reason": "high_value_transaction"
+  }
+}

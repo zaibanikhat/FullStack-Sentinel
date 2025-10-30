@@ -1,0 +1,31 @@
+{
+  "name": "sentinel-api",
+  "version": "1.0.0",
+  "description": "API service for Sentinel Support",
+  "main": "index.cjs",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.cjs",
+    "dev": "nodemon --watch . --exec \"node --no-warnings=ExperimentalWarning\" index.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.1.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.3",
+    "prom-client": "^14.2.0",
+    "redis": "^4.6.13",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

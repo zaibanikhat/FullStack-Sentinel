@@ -1,0 +1,38 @@
+[
+  {
+    "id": "txn_1",
+    "customerId": "cust_1",
+    "merchant": "Amazon",
+    "amount": 120.00,
+    "amount_cents": 12000,
+    "type": "debit",
+    "currency": "USD",
+    "timestamp": "2023-10-30T10:00:00Z",
+    "ts": "2023-10-30T10:00:00Z",
+    "category": "Shopping"
+  },
+  {
+    "id": "txn_2",
+    "customerId": "cust_2",
+    "merchant": "Netflix",
+    "amount": 15.00,
+    "amount_cents": 1500,
+    "type": "debit",
+    "currency": "USD",
+    "timestamp": "2023-10-29T15:30:00Z",
+    "ts": "2023-10-29T15:30:00Z",
+    "category": "Entertainment"
+  },
+  {
+    "id": "txn_3",
+    "customerId": "cust_1",
+    "merchant": "Uber",
+    "amount": 25.00,
+    "amount_cents": 2500,
+    "type": "debit",
+    "currency": "USD",
+    "timestamp": "2023-10-28T09:15:00Z",
+    "ts": "2023-10-28T09:15:00Z",
+    "category": "Transportation"
+  }
+]

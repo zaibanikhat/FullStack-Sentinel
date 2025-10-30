@@ -1,0 +1,353 @@
+{
+  "info": {
+    "name": "Sentinel Support API v2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Authentication",
+      "item": [
+        {
+          "name": "Get API Key",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"securepassword123\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/auth/login",
+              "protocol": "http",
+              "host": ["{{base_url}}"],
+              "path": ["api", "auth", "login"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "2. Health & Metrics",
+      "item": [
+        {
+          "name": "Health Check",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "09306da2de728c5a069d392ad62ed7fa"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3001/health",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3001",
+              "path": ["health"]
+            }
+          }
+        },
+        {
+          "name": "Get Metrics",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "09306da2de728c5a069d392ad62ed7fa"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3001/metrics",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3001",
+              "path": ["metrics"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Transactions",
+      "item": [
+        {
+          "name": "Ingest Transactions",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "X-API-Key",
+                "value": "09306da2de728c5a069d392ad62ed7fa"
+              },
+              {
+                "key": "Idempotency-Key",
+                "value": "idemp_1761800034279"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"id\": \"txn_199999\",\n    \"customerId\": \"cust_836\",\n    \"cardId\": \"card_5bh7ya071\",\n    \"accountId\": \"acc_836\",\n    \"amount\": \"890.48\",\n    \"currency\": \"USD\",\n    \"merchant\": \"Merchant 1\",\n    \"category\": \"bills\",\n    \"status\": \"failed\",\n    \"timestamp\": \"2023-04-26T18:20:42.601Z\",\n    \"isFraud\": false\n  }\n]"
+            },
+            "url": {
+              "raw": "http://localhost:3001/api/ingest/transactions",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3001",
+              "path": ["api", "ingest", "transactions"]
+            }
+          }
+        },
+        {
+          "name": "Get Customer Transactions",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "09306da2de728c5a069d392ad62ed7fa"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3001/api/customer/cust_836/transactions?from=2023-01-01&to=2023-12-31&limit=10",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3001",
+              "path": ["api", "customer", "cust_836", "transactions"],
+              "query": [
+                {
+                  "key": "from",
+                  "value": "2023-01-01"
+                },
+                {
+                  "key": "to",
+                  "value": "2023-12-31"
+                },
+                {
+                  "key": "limit",
+                  "value": "10"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Customer Insights",
+      "item": [
+        {
+          "name": "Get Customer Summary",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "09306da2de728c5a069d392ad62ed7fa"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3001/api/insights/cust_123/summary",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3001",
+              "path": ["api", "insights", "cust_123", "summary"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. Triage System",
+      "item": [
+        {
+          "name": "Start Triage",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "X-API-Key",
+                "value": "09306da2de728c5a069d392ad62ed7fa"
+              },
+              {
+                "key": "Idempotency-Key",
+                "value": "eval_triage_123"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"alertId\": \"alert_123\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3001/api/triage",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3001",
+              "path": ["api", "triage"]
+            }
+          }
+        },
+        {
+          "name": "Stream Triage Updates",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "09306da2de728c5a069d392ad62ed7fa"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3001/api/triage/run_123/stream",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3001",
+              "path": ["api", "triage", "run_123", "stream"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "5. Card Actions",
+      "item": [
+        {
+          "name": "Freeze Card",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Idempotency-Key",
+                "value": "unique-request-id-123"
+              },
+              {
+                "key": "X-API-Key",
+                "value": "09306da2de728c5a069d392ad62ed7fa"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"cardId\": \"card_123\",\n  \"otp\": \"123456\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3001/api/action/freeze-card",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3001",
+              "path": ["api", "action", "freeze-card"]
+            }
+          }
+        },
+        {
+          "name": "Open Dispute",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "X-API-Key",
+                "value": "09306da2de728c5a069d392ad62ed7fa"
+              },
+              {
+                "key": "Idempotency-Key",
+                "value": "eval_dispute_123"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"txnId\": \"txn_199999\",\n  \"reasonCode\": \"unauthorized_charge\",\n  \"confirm\": true\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3001/api/action/open-dispute",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3001",
+              "path": ["api", "action", "open-dispute"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "6. Knowledge Base",
+      "item": [
+        {
+          "name": "Search KB",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "09306da2de728c5a069d392ad62ed7fa"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/kb/search?q=payments",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3001",
+              "path": ["api", "kb", "search"],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "payments"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "exec": [
+          "// Set environment variables",
+          "pm.environment.set('base_url', 'http://localhost:3001');",
+          "pm.environment.set('api_key', '09306da2de728c5a069d392ad62ed7fa');"
+        ],
+        "type": "text/javascript"
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "exec": [
+          "// Common test cases",
+          "pm.test(\"Status code is 200\", function () {",
+          "    pm.response.to.have.status(200);",
+          "});",
+          "",
+          "pm.test(\"Response time is less than 500ms\", function () {",
+          "    pm.expect(pm.response.responseTime).to.be.below(500);",
+          "});"
+        ],
+        "type": "text/javascript"
+      }
+    }
+  ]
+}

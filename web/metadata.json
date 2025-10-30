@@ -1,0 +1,6 @@
+
+{
+  "name": "Sentinel Support",
+  "description": "A case-resolution console for internal support agents to ingest and explore transactions, generate AI insights & reports, and auto-resolve cases via a multi-agent pipeline.",
+  "requestFramePermissions": []
+}

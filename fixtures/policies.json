@@ -1,0 +1,23 @@
+[
+  {
+    "id": "pol_001",
+    "name": "Fraud Prevention Policy",
+    "description": "Guidelines and procedures for preventing fraud",
+    "lastUpdated": "2023-01-15T00:00:00Z",
+    "content": "This policy outlines the measures taken to prevent fraudulent activities..."
+  },
+  {
+    "id": "pol_002",
+    "name": "Refund Policy",
+    "description": "Terms and conditions for processing refunds",
+    "lastUpdated": "2023-02-20T00:00:00Z",
+    "content": "This policy describes the refund process and eligibility criteria..."
+  },
+  {
+    "id": "pol_003",
+    "name": "Data Protection Policy",
+    "description": "How customer data is protected and managed",
+    "lastUpdated": "2023-03-10T00:00:00Z",
+    "content": "This policy explains our data protection measures and compliance..."
+  }
+]

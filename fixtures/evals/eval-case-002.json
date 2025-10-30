@@ -1,0 +1,42 @@
+{
+  "id": "eval-case-002",
+  "name": "Rapid Successive Transactions",
+  "description": "Multiple transactions in a short time frame",
+  "input": {
+    "transactions": [
+      {
+        "amount": 150,
+        "currency": "USD",
+        "customerId": "cust_rapid_spender",
+        "merchant": "Online Store 1",
+        "timestamp": "2025-10-30T10:00:00Z"
+      },
+      {
+        "amount": 200,
+        "currency": "USD",
+        "customerId": "cust_rapid_spender",
+        "merchant": "Online Store 2",
+        "timestamp": "2025-10-30T10:01:30Z"
+      },
+      {
+        "amount": 175,
+        "currency": "USD",
+        "customerId": "cust_rapid_spender",
+        "merchant": "Online Store 3",
+        "timestamp": "2025-10-30T10:02:45Z"
+      }
+    ],
+    "customer": {
+      "id": "cust_rapid_spender",
+      "averageTransactionsPerDay": 2,
+      "status": "active"
+    }
+  },
+  "expected": {
+    "alert": true,
+    "riskScore": {
+      "$gt": 0.7
+    },
+    "reason": "velocity_high"
+  }
+}

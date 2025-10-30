@@ -1,0 +1,352 @@
+[
+  {
+    "id": "doc_1",
+    "title": "Document 1: How to payments",
+    "content": "This is a sample knowledge base document #1. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "technical",
+    "lastUpdated": "2024-09-26T21:11:03.680Z"
+  },
+  {
+    "id": "doc_2",
+    "title": "Document 2: Best practices for payments",
+    "content": "This is a sample knowledge base document #2. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "general",
+    "lastUpdated": "2025-02-17T17:35:23.761Z"
+  },
+  {
+    "id": "doc_3",
+    "title": "Document 3: Best practices for accounts",
+    "content": "This is a sample knowledge base document #3. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "billing",
+    "lastUpdated": "2023-06-29T16:53:17.305Z"
+  },
+  {
+    "id": "doc_4",
+    "title": "Document 4: Guide to fraud",
+    "content": "This is a sample knowledge base document #4. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "billing",
+    "lastUpdated": "2024-07-04T10:41:38.185Z"
+  },
+  {
+    "id": "doc_5",
+    "title": "Document 5: Best practices for fraud",
+    "content": "This is a sample knowledge base document #5. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "general",
+    "lastUpdated": "2025-01-26T08:11:53.135Z"
+  },
+  {
+    "id": "doc_6",
+    "title": "Document 6: Guide to fraud",
+    "content": "This is a sample knowledge base document #6. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "billing",
+    "lastUpdated": "2025-05-13T17:15:16.393Z"
+  },
+  {
+    "id": "doc_7",
+    "title": "Document 7: Guide to cards",
+    "content": "This is a sample knowledge base document #7. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "technical",
+    "lastUpdated": "2024-07-19T18:34:09.491Z"
+  },
+  {
+    "id": "doc_8",
+    "title": "Document 8: Understanding payments",
+    "content": "This is a sample knowledge base document #8. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "fraud",
+    "lastUpdated": "2024-01-25T16:55:07.090Z"
+  },
+  {
+    "id": "doc_9",
+    "title": "Document 9: Guide to security",
+    "content": "This is a sample knowledge base document #9. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "technical",
+    "lastUpdated": "2024-03-20T20:34:06.358Z"
+  },
+  {
+    "id": "doc_10",
+    "title": "Document 10: Best practices for payments",
+    "content": "This is a sample knowledge base document #10. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "billing",
+    "lastUpdated": "2025-02-11T22:39:45.682Z"
+  },
+  {
+    "id": "doc_11",
+    "title": "Document 11: How to cards",
+    "content": "This is a sample knowledge base document #11. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "fraud",
+    "lastUpdated": "2025-10-14T19:21:58.155Z"
+  },
+  {
+    "id": "doc_12",
+    "title": "Document 12: Best practices for fraud",
+    "content": "This is a sample knowledge base document #12. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "general",
+    "lastUpdated": "2024-03-10T01:31:40.748Z"
+  },
+  {
+    "id": "doc_13",
+    "title": "Document 13: Guide to accounts",
+    "content": "This is a sample knowledge base document #13. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "general",
+    "lastUpdated": "2025-08-20T06:38:13.246Z"
+  },
+  {
+    "id": "doc_14",
+    "title": "Document 14: Understanding fraud",
+    "content": "This is a sample knowledge base document #14. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "fraud",
+    "lastUpdated": "2024-07-24T18:45:06.580Z"
+  },
+  {
+    "id": "doc_15",
+    "title": "Document 15: How to cards",
+    "content": "This is a sample knowledge base document #15. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "technical",
+    "lastUpdated": "2025-04-02T19:46:51.572Z"
+  },
+  {
+    "id": "doc_16",
+    "title": "Document 16: Best practices for accounts",
+    "content": "This is a sample knowledge base document #16. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "technical",
+    "lastUpdated": "2023-01-07T20:08:28.425Z"
+  },
+  {
+    "id": "doc_17",
+    "title": "Document 17: Guide to accounts",
+    "content": "This is a sample knowledge base document #17. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "policies",
+    "lastUpdated": "2023-03-16T03:13:36.072Z"
+  },
+  {
+    "id": "doc_18",
+    "title": "Document 18: Understanding security",
+    "content": "This is a sample knowledge base document #18. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "general",
+    "lastUpdated": "2024-02-04T16:38:33.407Z"
+  },
+  {
+    "id": "doc_19",
+    "title": "Document 19: Understanding fraud",
+    "content": "This is a sample knowledge base document #19. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "fraud",
+    "lastUpdated": "2024-02-17T01:39:16.195Z"
+  },
+  {
+    "id": "doc_20",
+    "title": "Document 20: Best practices for cards",
+    "content": "This is a sample knowledge base document #20. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "policies",
+    "lastUpdated": "2023-12-02T11:47:58.242Z"
+  },
+  {
+    "id": "doc_21",
+    "title": "Document 21: Understanding security",
+    "content": "This is a sample knowledge base document #21. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "fraud",
+    "lastUpdated": "2025-10-16T05:49:35.642Z"
+  },
+  {
+    "id": "doc_22",
+    "title": "Document 22: Understanding fraud",
+    "content": "This is a sample knowledge base document #22. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "billing",
+    "lastUpdated": "2023-01-28T09:22:48.352Z"
+  },
+  {
+    "id": "doc_23",
+    "title": "Document 23: Understanding cards",
+    "content": "This is a sample knowledge base document #23. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "policies",
+    "lastUpdated": "2024-04-17T18:21:22.483Z"
+  },
+  {
+    "id": "doc_24",
+    "title": "Document 24: Guide to security",
+    "content": "This is a sample knowledge base document #24. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "technical",
+    "lastUpdated": "2025-05-04T22:17:12.737Z"
+  },
+  {
+    "id": "doc_25",
+    "title": "Document 25: How to payments",
+    "content": "This is a sample knowledge base document #25. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "general",
+    "lastUpdated": "2024-07-01T06:08:59.370Z"
+  },
+  {
+    "id": "doc_26",
+    "title": "Document 26: Best practices for accounts",
+    "content": "This is a sample knowledge base document #26. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "billing",
+    "lastUpdated": "2025-02-03T10:26:20.326Z"
+  },
+  {
+    "id": "doc_27",
+    "title": "Document 27: Guide to payments",
+    "content": "This is a sample knowledge base document #27. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "general",
+    "lastUpdated": "2024-11-04T07:48:43.369Z"
+  },
+  {
+    "id": "doc_28",
+    "title": "Document 28: Understanding cards",
+    "content": "This is a sample knowledge base document #28. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "billing",
+    "lastUpdated": "2023-06-30T05:20:10.190Z"
+  },
+  {
+    "id": "doc_29",
+    "title": "Document 29: Understanding cards",
+    "content": "This is a sample knowledge base document #29. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "policies",
+    "lastUpdated": "2024-03-09T08:22:24.893Z"
+  },
+  {
+    "id": "doc_30",
+    "title": "Document 30: Best practices for cards",
+    "content": "This is a sample knowledge base document #30. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "billing",
+    "lastUpdated": "2025-10-02T04:23:07.187Z"
+  },
+  {
+    "id": "doc_31",
+    "title": "Document 31: How to cards",
+    "content": "This is a sample knowledge base document #31. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "technical",
+    "lastUpdated": "2024-05-02T05:33:34.762Z"
+  },
+  {
+    "id": "doc_32",
+    "title": "Document 32: Best practices for accounts",
+    "content": "This is a sample knowledge base document #32. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "policies",
+    "lastUpdated": "2023-07-19T22:53:55.746Z"
+  },
+  {
+    "id": "doc_33",
+    "title": "Document 33: Guide to payments",
+    "content": "This is a sample knowledge base document #33. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "general",
+    "lastUpdated": "2024-08-10T01:41:49.270Z"
+  },
+  {
+    "id": "doc_34",
+    "title": "Document 34: Best practices for fraud",
+    "content": "This is a sample knowledge base document #34. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "fraud",
+    "lastUpdated": "2023-02-14T06:32:33.466Z"
+  },
+  {
+    "id": "doc_35",
+    "title": "Document 35: Best practices for payments",
+    "content": "This is a sample knowledge base document #35. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "billing",
+    "lastUpdated": "2023-04-23T06:04:39.551Z"
+  },
+  {
+    "id": "doc_36",
+    "title": "Document 36: Best practices for payments",
+    "content": "This is a sample knowledge base document #36. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "general",
+    "lastUpdated": "2023-09-22T21:33:07.168Z"
+  },
+  {
+    "id": "doc_37",
+    "title": "Document 37: Guide to accounts",
+    "content": "This is a sample knowledge base document #37. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "fraud",
+    "lastUpdated": "2023-01-22T18:15:42.994Z"
+  },
+  {
+    "id": "doc_38",
+    "title": "Document 38: How to payments",
+    "content": "This is a sample knowledge base document #38. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "general",
+    "lastUpdated": "2025-06-11T16:40:05.089Z"
+  },
+  {
+    "id": "doc_39",
+    "title": "Document 39: Understanding security",
+    "content": "This is a sample knowledge base document #39. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "billing",
+    "lastUpdated": "2023-05-14T18:43:24.049Z"
+  },
+  {
+    "id": "doc_40",
+    "title": "Document 40: Guide to security",
+    "content": "This is a sample knowledge base document #40. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "policies",
+    "lastUpdated": "2023-09-10T10:58:39.453Z"
+  },
+  {
+    "id": "doc_41",
+    "title": "Document 41: Guide to accounts",
+    "content": "This is a sample knowledge base document #41. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "policies",
+    "lastUpdated": "2023-07-05T16:18:13.628Z"
+  },
+  {
+    "id": "doc_42",
+    "title": "Document 42: How to accounts",
+    "content": "This is a sample knowledge base document #42. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "technical",
+    "lastUpdated": "2024-12-17T01:34:57.908Z"
+  },
+  {
+    "id": "doc_43",
+    "title": "Document 43: Guide to accounts",
+    "content": "This is a sample knowledge base document #43. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "fraud",
+    "lastUpdated": "2024-12-26T01:23:06.314Z"
+  },
+  {
+    "id": "doc_44",
+    "title": "Document 44: Understanding security",
+    "content": "This is a sample knowledge base document #44. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "technical",
+    "lastUpdated": "2023-11-09T21:20:33.654Z"
+  },
+  {
+    "id": "doc_45",
+    "title": "Document 45: How to fraud",
+    "content": "This is a sample knowledge base document #45. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "billing",
+    "lastUpdated": "2025-01-06T16:32:39.949Z"
+  },
+  {
+    "id": "doc_46",
+    "title": "Document 46: Understanding payments",
+    "content": "This is a sample knowledge base document #46. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "fraud",
+    "lastUpdated": "2025-03-31T14:00:15.670Z"
+  },
+  {
+    "id": "doc_47",
+    "title": "Document 47: How to security",
+    "content": "This is a sample knowledge base document #47. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "technical",
+    "lastUpdated": "2023-02-09T20:24:04.282Z"
+  },
+  {
+    "id": "doc_48",
+    "title": "Document 48: Best practices for accounts",
+    "content": "This is a sample knowledge base document #48. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "general",
+    "lastUpdated": "2024-01-23T03:59:34.648Z"
+  },
+  {
+    "id": "doc_49",
+    "title": "Document 49: How to accounts",
+    "content": "This is a sample knowledge base document #49. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "fraud",
+    "lastUpdated": "2024-12-04T07:36:03.384Z"
+  },
+  {
+    "id": "doc_50",
+    "title": "Document 50: Understanding fraud",
+    "content": "This is a sample knowledge base document #50. It contains helpful information about the system and how to resolve common issues. Please refer to the official documentation for more details.",
+    "category": "policies",
+    "lastUpdated": "2023-10-09T00:14:05.657Z"
+  }
+]

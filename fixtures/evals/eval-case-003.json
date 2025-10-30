@@ -1,0 +1,33 @@
+{
+  "id": "eval-case-003",
+  "name": "International Transaction",
+  "description": "Transaction from a new country",
+  "input": {
+    "transaction": {
+      "amount": 500,
+      "currency": "USD",
+      "customerId": "cust_international",
+      "merchant": "Global Retailer",
+      "location": {
+        "country": "JP",
+        "ip": "45.12.34.56"
+      },
+      "timestamp": "2025-10-30T10:00:00Z"
+    },
+    "customer": {
+      "id": "cust_international",
+      "transactionHistory": [
+        { "country": "US", "count": 15 },
+        { "country": "CA", "count": 2 }
+      ],
+      "status": "active"
+    }
+  },
+  "expected": {
+    "alert": true,
+    "riskScore": {
+      "$gt": 0.6
+    },
+    "reason": "new_country"
+  }
+}

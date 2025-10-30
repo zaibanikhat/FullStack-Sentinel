@@ -1,0 +1,31 @@
+{
+  "id": "eval-case-004",
+  "name": "Card Not Present - High Risk",
+  "description": "High value card-not-present transaction",
+  "input": {
+    "transaction": {
+      "amount": 1200,
+      "currency": "USD",
+      "customerId": "cust_online_shopper",
+      "merchant": "Online Electronics",
+      "category": "electronics",
+      "isCardPresent": false,
+      "deviceId": "new_device_123",
+      "ipAddress": "192.168.1.100",
+      "timestamp": "2025-10-30T10:00:00Z"
+    },
+    "customer": {
+      "id": "cust_online_shopper",
+      "devices": ["device_abc", "device_def"],
+      "averageOnlinePurchase": 150,
+      "status": "active"
+    }
+  },
+  "expected": {
+    "alert": true,
+    "riskScore": {
+      "$gt": 0.8
+    },
+    "reason": "card_not_present_high_risk"
+  }
+}
