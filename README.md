@@ -83,7 +83,7 @@ docker compose up --build
 
 This will spin up:
 
-* **web** (React app on port 3000)
+* **web** (React app on port 8080)
 * **api** (Node service on port 3001)
 * **sqlite** (file DB)
 
