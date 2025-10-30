@@ -93,7 +93,6 @@ Access via [http://localhost:3000](http://localhost:3000)
 
 ## Demo
 
-[Watch the Demo Video](#) *(Replace with your Drive or Loom link)*
 Demonstrates OTP freeze flow, dispute handling, fallback, rate limiting, and metrics visibility.
 
 ---
@@ -101,5 +100,6 @@ Demonstrates OTP freeze flow, dispute handling, fallback, rate limiting, and met
 ## About
 
 **Project:** Sentinel Support
+
 **Purpose:** Full-stack fintech case resolution system with knowledge-driven automation
 **Author:** Zaiba Nikhat
