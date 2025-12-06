@@ -94,10 +94,19 @@ Access via [http://localhost:3000](http://localhost:3000)
 ## Demo
 
 Demonstrates OTP freeze flow, dispute handling, fallback, rate limiting, and metrics visibility.
+## Screenshots
 
-<p align="center">
-  <img src="assets/sentinel-alerts.png" width="800">
-</p>
+### Dashboard
+![Dashboard](assets/sentinel-dashboard.png)
+
+### Alerts View
+![Alerts](assets/sentinel-alerts.png)
+
+### Customer Profile
+![Customer](assets/sentinel-customers.png)
+
+### Model Evaluations
+![Evaluations](assets/sentinel-evals.png)
 
 
 
