@@ -103,7 +103,7 @@ Demonstrates OTP freeze flow, dispute handling, fallback, rate limiting, and met
 ![Alerts](assets/sentinel-alerts.png)
 
 ### Customer Profile
-![Customer](assets/sentinel-cust.png)
+![Customer](assets/sentinel-customer.png)
 
 ### Model Evaluations
 ![Evaluations](assets/sentinel-evals.png)
