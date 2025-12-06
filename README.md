@@ -95,6 +95,9 @@ Access via [http://localhost:3000](http://localhost:3000)
 
 Demonstrates OTP freeze flow, dispute handling, fallback, rate limiting, and metrics visibility.
 
+![Alerts](assets/sentinel-alerts.png)
+
+
 ---
 
 ## About
